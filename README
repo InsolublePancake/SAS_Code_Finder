@@ -1,0 +1,14 @@
+SAS Tools
+
+A repository of useful tools for analysing SAS projects.
+Currently it will:
+    - Find all .sas files in a directory tree and copy them all into a single text document
+    - Locate all input/output datasets and create:
+        - A tree of antecedent datasets that contributed to each datasets   
+        - The .sas file in which each dataset was created.
+        
+
+To Do:
+    Add a function for finding Proc Summary datasteps
+    Add a function for locating .sas files references within the code but outside of the directory tree.    
+    Wrap all into a GUI
